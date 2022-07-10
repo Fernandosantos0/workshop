@@ -5,9 +5,13 @@
 * Browsers: last 4 version
 */
 
+/* Codificação do arquivo css */
 @charset "UTF-8";
 
-/* Google Fonts */
+/*
+ * API de fonte: Google Fonts
+ * Link: https://fonts.google.com/
+*/
 
 /* Fonte Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
@@ -162,40 +166,4 @@ footer {
 .description h3,
 .description p {
     margin-bottom: 20px;
-}
-
-/* Responsividade */
-@media screen and (max-width: 1017px){
-    video#bg-video {
-        display: none;
-    }
-
-    .container {
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .formContainer {
-        float: none;
-        max-width: 85%;
-        margin-inline: auto;
-    }
-}
-
-@media screen and (max-width: 660px) {
-    .description {
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-
-    .description h3 {
-        margin-top: 20px;
-    }
-
-    .description p {
-        margin-bottom: 10px;
-        line-height: 25px;
-    }
 }

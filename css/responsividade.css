@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* Responsividade */
+@media screen and (max-width: 1017px){
+    video#bg-video {
+        display: none;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .formContainer {
+        float: none;
+        max-width: 85%;
+        margin-inline: auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .description {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    .description h3 {
+        margin-top: 20px;
+    }
+
+    .description p {
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+}
