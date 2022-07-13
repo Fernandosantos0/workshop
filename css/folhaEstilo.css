@@ -87,7 +87,7 @@ section {
 
 .formContainer {
     max-width: 230px;
-    background-color: #ffffffbb;
+    background-color: hsla(0, 0%, 100%, 0.733);
     padding: 20px;
     float: right;
 }
